@@ -1,0 +1,113 @@
+ /*header + hero background color: #1F2937  */
+/* hero main text: 48px extra-bold #F9FAF8 */
+/* hero secondary text, header link text: 18px #E5E7EB */
+/* header logo text: #F9FAF* */
+/* button color, call to action background color: #3882F6 */
+/* information header text: 36px extra-bold #1F2937 */
+/* quote section background color: #E5E7EB */
+/* quote text: 36px light italic #1F2937 */
+
+* {
+    font-family: sans-serif;  
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    color: #F9FaF8;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #1F2937;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    font-size: 24px;
+    
+    flex: 1 1 auto;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    color: #E5e7eb;
+    font-size: 18px;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    gap: 40px;
+    
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 8% 15% 8% 15%;
+    height: 45em;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1;
+}
+
+.hero-text .aww {
+    flx: 1;
+}
+
+.hero-text .pew {
+    fex: 1;
+    font-size: 18px;
+    color: #E5e7eb;
+    margin: 4% 0 4% 0;
+}
+
+.hero-text button {
+    background-color: #3882f6;
+    border: 0;
+    padding: 3% 10% 3% 10%;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FaF8;
+}
+
+.hero .aww {
+    font-size: 48px;
+    font-weight: 900;
+    color: #E5e7eb;
+    flx: 1;
+}
+
+.img {
+    background-color: gray;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.img p {
+    
+}
