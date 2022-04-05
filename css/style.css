@@ -108,6 +108,8 @@ ul {
     justify-content: center;
     color: #F9FaF8;
     font-size: 18px;
+    
+    border-radius: 25px;
 }
 
 .img p {
@@ -155,5 +157,33 @@ color: grey;
     border-width: 4px;
     border-color: #3882f6;
     border-radius: 15px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.quote p {
+    text-align: center;
+    margin: 0 25% 0 25%;
+    font-size: 36px;
+    padding-top: 60px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.name {
+    margin: 0 25% 0 25%;
+    color: #1F2937;
+    font-weight: 700;
+    text-align: end;
+    font-size: 32px;
+    
 }
 
